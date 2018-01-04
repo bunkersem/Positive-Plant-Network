@@ -1,0 +1,85 @@
+
+.loadpanel-container {
+    position: fixed;
+    z-index: 5000;
+    top: 0; bottom: 0; right: 0; left: 0;
+    user-select: none;
+    line-height: 100vh;
+    text-align: center;
+}
+
+.loadpanel {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    width: 400px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 30px;
+    padding: 60px;
+}
+
+.loader {
+
+}
+
+.panel {
+    border: 2px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+    margin: 50px auto 200px auto;
+}
+
+.panel input, textarea {
+    font-size: 1rem;
+}
+
+.panel .panel-header {
+    border-bottom: 2px solid grey;
+}
+
+.panel .panel-header::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.panel .panel-header button {
+    border: none;
+    margin: 0 2px 0 0;
+    display: block;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    color: #dedede;
+}
+
+.panel .panel-body {
+    padding: 20px;
+    min-height: 300px;
+}
+
+.panel .panel-body .tab-target {
+
+}
+
+.panel .panel-body .tab-target.hidden {
+    
+}
+
+.panel .panel-body .tab-target:not(.hidden) {
+    animation: slideIn ease-out 1s;
+}
+
+@keyframes slideIn {
+    from { transform: translate(1000px, 0); opacity: 0 }
+    to { transform: translate(0, 0) }
+}
+
+@keyframes slideOut {
+    from { transform: translate(0, 0) }
+    to { transform: translate(0, 1000px); opacity: 1; }
+}
+
+

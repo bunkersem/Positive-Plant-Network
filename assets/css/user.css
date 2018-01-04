@@ -1,0 +1,54 @@
+.user-page main {
+    padding: 30px;
+}
+
+.user-page #personal {
+    font-size: 1.2rem;
+}
+
+.user-page #personal #profile-pic-container {
+    width: 130px; /* should be able to change without distoring the image */
+    position: relative;
+}
+
+.user-page #personal #profile-pic-container #profile-pic {
+    border-radius: 50%;
+    padding-bottom: 100%;
+    background: lightgray no-repeat center center;
+    background-size: cover;
+}
+
+.user-page #personal #profile-pic-container #profile-pic-edit {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    text-align: center;
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.user-page #personal #profile-pic-container #profile-pic-edit i {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.user-page #personal input[type=text], .user-page #personal textarea {
+    font-size: 1rem;
+}
+
+.user-page #personal .profile-control-label {
+    margin-bottom: 4px;
+}
+
+.user-page #personal #profile-name-container #profile-name {
+}
+
+
+
+
+

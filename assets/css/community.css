@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+/* search */
+
+#user-search-results {
+    min-height: 1000px;
+    background: #f6f6f6;
+    padding: 10px;
+}
+
+.search-result-user {
+    background: #ccc;
+    line-height: 100%;
+    padding: 10px;
+}
+
+.search-result-user-icon-container {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-result-user-icon {
+    padding-bottom: 100%;
+    background: grey no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.username-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}

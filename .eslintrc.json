@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "globals": {
+        "firebase": true,
+        "chance": true,
+        "jQuery": true,
+        "$": true,
+
+        "g_singnup": true,
+        "getQueryParam": true,
+        "escapeHTML": true,
+        "rndArrE": true,
+        "rnd": true,
+        "rndi": true
+    },
+    "rules": {
+        "no-const-assign": "error",
+        "no-this-before-super": "warn",
+        "no-undef": "error",
+        "no-unreachable": "error",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "semi": ["warn", "always"],
+        "quotes": ["warn", "single"],
+        "indent": ["warn", 4]
+    }
+}
