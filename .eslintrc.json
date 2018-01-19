@@ -22,7 +22,8 @@
         "escapeHTML": true,
         "rndArrE": true,
         "rnd": true,
-        "rndi": true
+        "rndi": true,
+        "escapeRegExp": true
     },
     "rules": {
         "no-const-assign": "error",

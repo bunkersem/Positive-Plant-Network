@@ -44,6 +44,8 @@
     <!-- custom -->
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <link rel="stylesheet" href="/assets/css/quizzes.css">
 
     <!-- other important tags -->
     <link rel="canonical" href="/quizzes" />
@@ -87,6 +89,12 @@
                 <section id="section-introduction">
                     <h1>Welcome to the Positive Plant Network Quizzes page!!!&#x1f340; &#x1f341; &#x1f335;</h1>
                     <p></p>
+                </section>
+                <section id="quiz-search">
+                    <label for="searchString">Search:</label>
+                    <input type="text" name="searchString" id="searchString">
+                    <button class="btn primary" id="quizzes-search">Go</button>
+                    <div id="quizzes-search-results"></div>
                 </section>
 
             </main>
@@ -164,6 +172,8 @@
     <script src="/assets/js/modal.js"></script>
     <script src="/assets/js/firebase.js"></script>
     <script src="/assets/js/auth.js"></script>
+
+    <script src="/assets/js/quizzes/index/search.js"></script>
 
     <!-- third party cookie test -->
     <iframe src="https://mindmup.github.io/3rdpartycookiecheck/start.html" style="display:none" />

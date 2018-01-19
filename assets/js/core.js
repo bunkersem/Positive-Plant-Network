@@ -23,3 +23,7 @@ function rnd(min, max) {
 function rndi(min, max) {
     return Math.floor(rnd(min, max + 1));
 }
+
+function escapeRegExp(str) {
+    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
